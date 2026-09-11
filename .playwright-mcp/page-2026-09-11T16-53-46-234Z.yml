@@ -1,0 +1,71 @@
+- generic [active] [ref=f8e1]:
+  - link "" [ref=f8e2] [cursor=pointer]:
+    - /url: "#"
+  - navigation [ref=f8e4]:
+    - list [ref=f8e5]:
+      - link "" [ref=f8e6] [cursor=pointer]:
+        - /url: "#"
+      - listitem [ref=f8e8]:
+        - link "CURA Healthcare" [ref=f8e9] [cursor=pointer]:
+          - /url: ./
+      - listitem [ref=f8e10]:
+        - link "Home" [ref=f8e11] [cursor=pointer]:
+          - /url: ./
+      - listitem [ref=f8e12]:
+        - link "Login" [ref=f8e13] [cursor=pointer]:
+          - /url: profile.php#login
+  - banner [ref=f8e14]:
+    - generic [ref=f8e15]:
+      - heading "CURA Healthcare Service" [level=1] [ref=f8e16]
+      - heading "We Care About Your Health" [level=3] [ref=f8e17]
+      - link "Make Appointment" [ref=f8e18] [cursor=pointer]:
+        - /url: ./profile.php#login
+  - generic [ref=f8e21]:
+    - generic [ref=f8e22]:
+      - heading "Login" [level=2] [ref=f8e23]
+      - paragraph [ref=f8e24]: Please login to make appointment.
+      - paragraph [ref=f8e25]: Login failed! Please ensure the username and password are valid.
+    - generic [ref=f8e27]:
+      - generic [ref=f8e28]:
+        - generic [ref=f8e29]:
+          - generic [ref=f8e30]: Demo account
+          - generic [ref=f8e32]:
+            - generic [aria-hidden] [ref=f8e34]: 
+            - textbox "Username" [ref=f8e35]: John Doe
+        - generic [ref=f8e38]:
+          - generic [aria-hidden] [ref=f8e40]: 
+          - textbox "Password" [ref=f8e41]: ThisIsNotAPassword
+      - generic [ref=f8e42]:
+        - generic [ref=f8e43]: Username
+        - textbox "Username" [ref=f8e45]
+      - generic [ref=f8e46]:
+        - generic [ref=f8e47]: Password
+        - textbox "Password" [ref=f8e49]
+      - button "Login" [ref=f8e52] [cursor=pointer]
+  - contentinfo [ref=f8e53]:
+    - generic [ref=f8e56]:
+      - heading [level=4] [ref=f8e57]:
+        - strong [ref=f8e58]: CURA Healthcare Service
+      - paragraph [ref=f8e59]: Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305
+      - list [ref=f8e60]:
+        - listitem [ref=f8e61]:
+          - generic [ref=f8e62]: 
+          - text: (678) 813-1KMS
+        - listitem [ref=f8e63]:
+          - generic [ref=f8e64]: 
+          - link "info@katalon.com" [ref=f8e65] [cursor=pointer]:
+            - /url: mailto:info@katalon.com
+      - list [ref=f8e66]:
+        - listitem [ref=f8e67]:
+          - link "" [ref=f8e68] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=f8e70]:
+          - link "" [ref=f8e71] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=f8e73]:
+          - link "" [ref=f8e74] [cursor=pointer]:
+            - /url: "#"
+      - separator [ref=f8e76]
+      - paragraph [ref=f8e77]: Copyright © CURA Healthcare Service 2026
+    - link "" [ref=f8e78] [cursor=pointer]:
+      - /url: "#top"

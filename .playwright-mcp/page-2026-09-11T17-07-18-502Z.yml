@@ -1,0 +1,90 @@
+- generic [active] [ref=f22e1]:
+  - link "" [ref=f22e2] [cursor=pointer]:
+    - /url: "#"
+  - navigation [ref=f22e4]:
+    - list [ref=f22e5]:
+      - link "" [ref=f22e6] [cursor=pointer]:
+        - /url: "#"
+      - listitem [ref=f22e8]:
+        - link "CURA Healthcare" [ref=f22e9] [cursor=pointer]:
+          - /url: ./
+      - listitem [ref=f22e10]:
+        - link "Home" [ref=f22e11] [cursor=pointer]:
+          - /url: ./
+      - listitem [ref=f22e12]:
+        - link "History" [ref=f22e13] [cursor=pointer]:
+          - /url: history.php#history
+      - listitem [ref=f22e14]:
+        - link "Profile" [ref=f22e15] [cursor=pointer]:
+          - /url: profile.php#profile
+      - listitem [ref=f22e16]:
+        - link "Logout" [ref=f22e17] [cursor=pointer]:
+          - /url: authenticate.php?logout
+  - banner [ref=f22e18]:
+    - generic [ref=f22e19]:
+      - heading "CURA Healthcare Service" [level=1] [ref=f22e20]
+      - heading "We Care About Your Health" [level=3] [ref=f22e21]
+      - link "Make Appointment" [ref=f22e22] [cursor=pointer]:
+        - /url: ./index.php#appointment
+  - generic [ref=f22e25]:
+    - generic [ref=f22e26]:
+      - heading "Make Appointment" [level=2] [ref=f22e27]
+      - separator [ref=f22e28]
+    - generic [ref=f22e29]:
+      - generic [ref=f22e30]:
+        - generic [ref=f22e31]: Facility
+        - combobox "Facility" [ref=f22e33]:
+          - option "Tokyo CURA Healthcare Center" [selected]
+          - option "Hongkong CURA Healthcare Center"
+          - option "Seoul CURA Healthcare Center"
+      - generic [ref=f22e36] [cursor=pointer]:
+        - checkbox "Apply for hospital readmission" [ref=f22e37]
+        - text: Apply for hospital readmission
+      - generic [ref=f22e38]:
+        - generic [ref=f22e39]: Healthcare Program
+        - generic [ref=f22e40]:
+          - generic [ref=f22e41] [cursor=pointer]:
+            - radio "Medicare" [checked] [ref=f22e42]
+            - text: Medicare
+          - generic [ref=f22e43] [cursor=pointer]:
+            - radio "Medicaid" [ref=f22e44]
+            - text: Medicaid
+          - generic [ref=f22e45] [cursor=pointer]:
+            - radio "None" [ref=f22e46]
+            - text: None
+      - generic [ref=f22e47]:
+        - generic [ref=f22e48]: Visit Date (Required)
+        - generic [ref=f22e50]:
+          - textbox "Visit Date (Required)" [ref=f22e51]:
+            - /placeholder: dd/mm/yyyy
+          - generic [ref=f22e52]: 
+      - generic [ref=f22e54]:
+        - generic [ref=f22e55]: Comment
+        - textbox "Comment" [ref=f22e57]
+      - button "Book Appointment" [ref=f22e60] [cursor=pointer]
+  - contentinfo [ref=f22e61]:
+    - generic [ref=f22e64]:
+      - heading [level=4] [ref=f22e65]:
+        - strong [ref=f22e66]: CURA Healthcare Service
+      - paragraph [ref=f22e67]: Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305
+      - list [ref=f22e68]:
+        - listitem [ref=f22e69]:
+          - generic [ref=f22e70]: 
+          - text: (678) 813-1KMS
+        - listitem [ref=f22e71]:
+          - generic [ref=f22e72]: 
+          - link "info@katalon.com" [ref=f22e73] [cursor=pointer]:
+            - /url: mailto:info@katalon.com
+      - list [ref=f22e74]:
+        - listitem [ref=f22e75]:
+          - link "" [ref=f22e76] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=f22e78]:
+          - link "" [ref=f22e79] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=f22e81]:
+          - link "" [ref=f22e82] [cursor=pointer]:
+            - /url: "#"
+      - separator [ref=f22e84]
+      - paragraph [ref=f22e85]: Copyright © CURA Healthcare Service 2026
+    - text: 

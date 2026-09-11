@@ -1,0 +1,5 @@
+[STEP] Open home page
+[STEP] Click Make Appointment
+[STEP] Validate login page is displayed
+[STEP] Submit valid credentials
+[STEP] Verify appointment page is displayed

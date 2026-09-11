@@ -1,0 +1,1 @@
+[STEP] Verify appointment form is displayed

@@ -1,0 +1,48 @@
+- generic [active] [ref=f24e1]:
+  - link "" [ref=f24e2] [cursor=pointer]:
+    - /url: "#"
+  - navigation [ref=f24e4]:
+    - list [ref=f24e5]:
+      - link "" [ref=f24e6] [cursor=pointer]:
+        - /url: "#"
+      - listitem [ref=f24e8]:
+        - link "CURA Healthcare" [ref=f24e9] [cursor=pointer]:
+          - /url: ./
+      - listitem [ref=f24e10]:
+        - link "Home" [ref=f24e11] [cursor=pointer]:
+          - /url: ./
+      - listitem [ref=f24e12]:
+        - link "Login" [ref=f24e13] [cursor=pointer]:
+          - /url: profile.php#login
+  - banner [ref=f24e14]:
+    - generic [ref=f24e15]:
+      - heading "CURA Healthcare Service" [level=1] [ref=f24e16]
+      - heading "We Care About Your Health" [level=3] [ref=f24e17]
+      - link "Make Appointment" [ref=f24e18] [cursor=pointer]:
+        - /url: ./profile.php#login
+  - contentinfo [ref=f24e19]:
+    - generic [ref=f24e22]:
+      - heading [level=4] [ref=f24e23]:
+        - strong [ref=f24e24]: CURA Healthcare Service
+      - paragraph [ref=f24e25]: Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305
+      - list [ref=f24e26]:
+        - listitem [ref=f24e27]:
+          - generic [ref=f24e28]: 
+          - text: (678) 813-1KMS
+        - listitem [ref=f24e29]:
+          - generic [ref=f24e30]: 
+          - link "info@katalon.com" [ref=f24e31] [cursor=pointer]:
+            - /url: mailto:info@katalon.com
+      - list [ref=f24e32]:
+        - listitem [ref=f24e33]:
+          - link "" [ref=f24e34] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=f24e36]:
+          - link "" [ref=f24e37] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=f24e39]:
+          - link "" [ref=f24e40] [cursor=pointer]:
+            - /url: "#"
+      - separator [ref=f24e42]
+      - paragraph [ref=f24e43]: Copyright © CURA Healthcare Service 2026
+    - text: 

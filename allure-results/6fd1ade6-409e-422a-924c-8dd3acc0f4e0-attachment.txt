@@ -1,0 +1,3 @@
+[STEP] Open login page
+[STEP] Submit invalid credentials
+[STEP] Verify invalid login error message
