@@ -1,3 +1,0 @@
-[STEP] Open login page and sign in
-[STEP] Verify appointment form is displayed
-[STEP] Fill appointment details
